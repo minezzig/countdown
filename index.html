@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Countdown!</title>
+  </head>
+
+  <body>
+    <div class="title">
+      <h1 id="title">Choose a date</h1>
+    </div>
+    <div class="timer">
+      <div class="digit">
+        <p class="large" id="days">0</p>
+        <span>days</span>
+      </div>
+      <div class="digit">
+        <p class="large" id="hours">0</p>
+        <span>hours</span>
+      </div>
+      <div class="digit">
+        <p class="large" id="minutes">0</p>
+        <span>minutes</span>
+      </div>
+      <div class="digit">
+        <p class="large" id="seconds">0</p>
+        <span>seconds</span>
+      </div>
+    </div>
+    <br>
+    <div class="dateSelection">
+      <input type="date" id="userDateInput">
+      <button onClick="setDate()">count down!</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
