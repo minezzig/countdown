@@ -3,6 +3,8 @@ const displayHours = document.getElementById("hours");
 const displayMinutes = document.getElementById("minutes");
 const displaySeconds = document.getElementById("seconds");
 const title = document.getElementById("title");
+document.getElementById("countdown").addEventListener("click", setDate)
+
 let userDate;
 
 function setDate() {
